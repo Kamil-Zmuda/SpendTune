@@ -89,7 +89,7 @@ Open [http://localhost:3001](http://localhost:3001) with your browser to see the
 * [MongoDB](https://www.mongodb.com//) - Document-oriented database program.
 * [JEST](https://jestjs.io/) - JavaScript testing framework.
 
-## Our contribution
+## Contributions:
 1. Redesigned with Figma.
 2. Created [GH Project page](https://github.com/users/khomch/projects/2) to manage tasks.
 3. Rebuld app from Javascript to Typescript.
@@ -98,7 +98,7 @@ Open [http://localhost:3001](http://localhost:3001) with your browser to see the
 6. Covered client and server with unit tests. 
 7. Added e2e tests. 
 
-## Authors
+## Contributors
 
 Juan Vasquez - [Github](https://github.com/simplyjuanc) - [LinkedIn](https://www.linkedin.com/in/juancvasquez/)
 
