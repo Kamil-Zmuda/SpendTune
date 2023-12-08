@@ -1,7 +1,5 @@
 # SpendTune — Minimalistic personal expense tracker
 
-This is the fork of [original project](https://github.com/Kamil-Zmuda/SpendTune-Solo-Project/) by [Kamil Zmuda](https://github.com/Kamil-Zmuda/).
-
 ## Screenshots
 
 <p align="center">
