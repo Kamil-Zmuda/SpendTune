@@ -6,15 +6,15 @@ Once you clone the repo on your machine, navigate to the root folder of the proj
 
 `npm install`
 
-Repeat same step for the `ROOT/client/spendtune` path.
+Repeat the same step for the `ROOT/client/spendtune` path.
 
 
 
 My application is integrated with Plaid's open banking API which is used to authorize and connect the user with their banking institutions. 
 
-Plaid's API offer many products however for app needs I'm using 'transactions' to fetch and sync them. Follow these stetps:
+Plaid's API offers many products however for app needs I'm using 'transactions' to fetch and sync them. Follow these steps:
 
-- In order to configure the API it's necessary to register an account at:
+- To configure the API it's necessary to register an account at:
 
        [https://dashboard.plaid.com/signup]()
 
@@ -22,17 +22,17 @@ Plaid's API offer many products however for app needs I'm using 'transactions' t
 
 - Here you will find your `client_id` and `Secret` keys.
 
-- Go to projects `ROOT/server` and create `.env` file, make sure to add this file to your `.gitignore` list, as it will store some sensitive data you don't want to expose.
+- Go to projects `ROOT/server` and create a `.env` file, make sure to add this file to your `.gitignore` list, as it will store some sensitive data you don't want to expose.
 
 - Populate the `.env` file: 
 
-###### `PLAID_CLIENT_ID=` client_id from plaid's dashboard
+`PLAID_CLIENT_ID=` client_id from Plaid's dashboard
 
-###### `PLAID_SECRET=`secret key from plaid's dashboard
+`PLAID_SECRET=`secret key from Plaid's dashboard
 
-###### `PLAID_ENV=sandbox`   <= here you specify your environment - sandbox mode allows to fetch mock data from plaid's mock institutions, so you don't need to worry about leaking your real data.
+`PLAID_ENV=sandbox`   <= here you specify your environment - sandbox mode allows to fetch mock data from Plaid's mock institutions, so you don't need to worry about leaking your real data.
 
-###### `PLAID_SANDBOX_REDIRECT_URI=http://localhost:3001`     <= redirect URI for server
+`PLAID_SANDBOX_REDIRECT_URI=http://localhost:3001`     <= redirect URI for server
 
 `SERVER_PORT=3001`
 
@@ -52,4 +52,4 @@ Now you're good to go.
 
 NOTE: This project requires mongoDB running on your PC.
 
-NOTE2: It's possible to request development access from PLAID by filling a form at their page. If you get approved you can actually sync it with your real bank account by changing `PLAID_ENV=development`   
+NOTE2: It's possible to request development access from PLAID by filling out a form on their page. If you get approved you can actually sync it with your real bank account by changing `PLAID_ENV=development`   
