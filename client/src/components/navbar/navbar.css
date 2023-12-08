@@ -1,0 +1,58 @@
+@import '../../App.css';
+
+.navbar {
+  border-radius: 30px;
+  padding: 1rem 1.5rem;
+  margin: var(--vmargin) var(--hmargin);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 1;
+  height: 10%; 
+}
+
+.navbar__section {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar__title {
+  color: #FFFFFF;
+}
+
+.navbar__img {
+  width: 200px;
+  height: auto;
+}
+
+.navbar__greeting {
+  color: #FFFFFF;
+}
+
+.navbar__btn {
+  border-radius: 2rem;
+  border: 1px solid #25BBA8;  
+  background-color: var(--bg-1);
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar__section {
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .navbar__section:nth-child(2) {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: row;
+  }
+}

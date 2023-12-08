@@ -1,0 +1,38 @@
+@import '../../App.css';
+
+.transactions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.transactions__prompt {
+  font-size: 0.8rem;
+  font-weight: 300;
+  top: 0;
+  right: 0;
+}
+
+.transactions__title {
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+.transactions__header-row {
+  font-size: 1.25rem;
+  display: grid;
+  text-align: center;
+  grid-template-columns: 20fr 10fr 10fr 10fr;
+}
+
+.transactions__table {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+@media (max-width: 675px) {
+  .transactions__header-row {
+    display: none;
+  }
+}

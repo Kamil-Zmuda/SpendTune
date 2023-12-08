@@ -1,0 +1,18 @@
+:root {
+  --bg1: #292368;
+  --bg2: #10083d;
+  --slate: #8f8f8f;
+  --primary: #25bba8;
+  --focus: rgb(201, 145, 4);
+  --vmargin: 0.6rem;
+  --hmargin: 0.3rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comfortaa', sans-serif;
+  color: var(--primary);
+  list-style: none;
+}

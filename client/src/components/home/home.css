@@ -1,0 +1,65 @@
+@import '../../App.css';
+
+.container,
+.container--negative {
+  border-radius: 2rem;
+  padding: 2rem;
+  margin: 0 40px;
+}
+
+.container {
+  background-color: var(--bg2);
+}
+
+.container__title {
+  color: #ffffff;
+  margin-right: auto;
+}
+
+.container__title--central {
+  color: #ffffff;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 3rem;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.container__user-prompt {
+  animation: pulse 2s infinite;
+}
+
+.container--negative {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right: 3rem;
+  margin-left: 5rem;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+@media (max-width: 1140px) {
+  .dashboard {
+    flex-direction: column-reverse;
+  }
+}
+
+@media (max-width: 675px) {
+  .container,
+  .container--negative {
+    margin: 0 8px;
+  }
+  
+  .container--negative {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: stretch;
+  }
+
+}

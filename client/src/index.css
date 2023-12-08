@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--bg1);
+}
+
+.btn,
+.btn--small,
+.btn--flex {
+  cursor: pointer;
+  border: 2px solid var(--primary);
+  outline: none;
+  border-radius: 30px;
+  padding: 0.5rem 1rem;
+  background-color: var(--bg2);
+  height: 50px;
+  font-weight: bold;
+  transition: all 10ms ease-in-out;
+  justify-content: center;
+}
+
+.btn {
+  width: 200px;
+}
+
+.btn--small {
+  width: 100px;
+}
+
+.btn--short {
+  width: 5rem;
+  height: 1rem;
+  font-weight: 300;
+  font-size: 0.8rem;
+  padding: 0;
+}
+
+.btn--flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 0.5rem;
+}
+
+.btn:hover {
+  text-shadow: var(--primary) 0px 0px 2px;
+  border: 2px solid var(--focus);
+}
+
+.btn:active {
+  transform: scale(0.9);
+  box-shadow: 0 0 20px var(--primary);
+}
+
+.btn--negative {
+  color: var(--bg2);
+  background-color: var(--primary);
+  height: 2.5rem;
+  width: auto;
+}
+
+.btn--sticky {
+  position: sticky;
+  top: 20%;
+}
+
+
+.input {
+  background: #fbfbfb;
+  padding: 6px;
+  border-radius: 6px;
+  font-size: 12px;
+  border: 0;
+  font-weight: 900;
+  box-shadow: 0 0 0 1px #dddddd, 0 2px 4px 0 rgb(0 0 0 / 7%), 0 1px 1.5px 0 rgb(0 0 0 / 5%);
+  :focus{
+      border: 2px solid #000;
+      border-radius: 4px;
+  }
+}
+
+

@@ -1,0 +1,80 @@
+@import '../../App.css';
+
+.transaction__row {
+  display: grid;
+  grid-template-columns: 20fr 10fr 10fr 10fr;
+  align-items: center;
+  padding: 16px;
+  border: 1px solid var(--bg1);
+  border-radius: 16px;
+}
+
+.transaction__details {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.transaction__logo {
+  width: 60px;
+  height: 60px;
+  border-radius: 100px;
+  justify-self: flex-start;
+}
+
+.transaction__amount {
+  margin-left: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  text-align: left;
+}
+
+.transaction__value {
+  color: #ffffff;
+  font-weight: 700;
+}
+
+.transaction__date,
+.transaction__channel,
+.transaction__category {
+  color: var(--slate);
+  text-align: center;
+}
+
+.transaction__name {
+  color: var(--slate);
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.transaction__dropdown {
+  font-weight: bold;
+  font-size: 0.8rem;
+  color: var(--bg2);
+  border: 2px solid var(--primary);
+  outline: none;
+  border-radius: 30px;
+  padding: 0.4rem 1rem;
+  background-color: var(--primary);
+  height: 2rem;
+  width: auto;
+  text-align: center;
+}
+
+@media (max-width: 600px) {
+  .transaction__row {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 0.3rem;
+  }
+
+  .transaction__details {
+    width: 100%;
+  }
+}

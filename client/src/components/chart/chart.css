@@ -1,0 +1,45 @@
+@import '../../App.css';
+
+.container--sticky {
+  position: sticky;
+}
+
+.chart {
+  margin: var(--vmargin) var(--hmargin);
+  background-color: var(--bg2);
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  max-width: 600px;
+  height: 700px;
+  position: sticky;
+  top: 40px;
+  margin: 0 40px 40px 0px;
+}
+
+.chart__graph {
+  width: 440px;
+}
+
+.chart__totals {
+  font-weight: bold;
+}
+
+@media (max-width: 1140px) {
+  .chart {
+    max-width: 1140px;
+    margin: 0 40px 40px 40px;
+  }
+}
+
+@media (max-width: 675px) {
+  .chart__graph {
+    width: 280px;
+  }
+  .chart {
+    margin: 0 8px 8px 8px;
+    height: 512px;
+  }
+}

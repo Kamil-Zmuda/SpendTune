@@ -1,0 +1,18 @@
+[
+  {
+    "_id": {
+      "$oid": "655ccd2b7205ff8de3e0533a"
+    },
+    "email": "juancamilo210@gmail.com",
+    "password": "$2b$10$w3zCiDnBxxBb4qK1sn5NiOOO754t/uLFbWkWf5pxnDyi4JaysEbSy",
+    "firstName": "juan",
+    "lastName": "v",
+    "accessToken": "",
+    "linkedBanks": [],
+    "next_cursor": "CAESJTlQcjFEd2V2VkFpYXFNTk5xYnY5Q3l3UmtramxscXVxUUt4QkEiDAiMpvOqBhDok/ikAioMCIym86oGEOiT+KQC",
+    "transactions": [],
+    "transactionsCategorized": [],
+    "categories": [],
+    "__v": 2
+  }
+]
