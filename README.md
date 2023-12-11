@@ -13,8 +13,8 @@
 1. Clone the repo
 
 ```
-git clone https://github.com/Kamil-Zmuda/SpendTune-Solo-Project.git
-cd SpendTune-Solo-Project
+git clone https://github.com/Kamil-Zmuda/SpendTune.git
+cd SpendTune
 ```
 
 ---
