@@ -26,7 +26,7 @@ Plaid's API offers many products however for app needs I'm using 'transactions' 
 To configure the API it's necessary to register an account at:
       https://dashboard.plaid.com/signup
 
-Now go to your dashboard and select Developers => Keys section
+Now go to your dashboard and select Developers > Keys section
 
 Here you will find your client_id and Secret keys.
 
@@ -40,7 +40,7 @@ Populate the `.env` file:
 - SERVER_PORT=3001
 - SECRET="spendTune"
 
-Now go to your dashboard and select Developers => API section.
+Now go to your dashboard and select Developers > API section.
 
 Here you need to specify allowed Redirect URIs, same as above in the `.env` file.
 
