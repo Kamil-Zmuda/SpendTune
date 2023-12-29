@@ -34,9 +34,9 @@ Go to project's `/server` folder and create a `.env` file, make sure to add this
 
 Populate the `.env` file:
 - PLAID_CLIENT_ID= client_id from Plaid's dashboard
-- PLAID_SECRET=secret key from Plaid's dashboard
-- PLAID_ENV=sandbox <= here you specify your environment - sandbox mode allows to fetch mock data from Plaid's mock institutions, so you don't need to worry about leaking your real data.
-- PLAID_SANDBOX_REDIRECT_URI=http://localhost:3001 <= redirect URI for server
+- PLAID_SECRET= secret key from Plaid's dashboard
+- PLAID_ENV= sandbox - here you specify your environment. Sandbox mode allows you to fetch mock data from Plaid's mock institutions, so you don't need to use your real bank details to try it out.
+- PLAID_SANDBOX_REDIRECT_URI=http://localhost:3001 - redirect URI for server
 - SERVER_PORT=3001
 - SECRET="spendTune"
 
